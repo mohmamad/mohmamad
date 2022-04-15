@@ -1,0 +1,143 @@
+/* background  */
+body {
+    margin: 0px;
+}
+.main-color{
+    background-color: #1e47f3 !important;
+}
+.backGround {
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(0, 58, 108, 0.5),
+            rgba(97, 214, 255, 0.5)),
+    url('1432168.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    height: 50%;
+    width: 100%;
+}
+
+/* background  */
+/* navbar */
+.myNavbar {
+    background-color: #0059ff;
+    opacity: 0.8;
+}
+
+.myNavbar .navbar-brand,
+.myNavbar .navbar-text {
+    color: rgb(255, 255, 255);
+}
+
+/* change the link color */
+nav .navbar-nav li a {
+    color: white;
+}
+
+/* change the color of active or hovered links */
+nav .navbar-nav li a:hover {
+    color: #1e47f3;
+}
+
+nav .navbar-nav li a:active {
+    color: #1e47f3;
+}
+
+/* navbar  */
+
+/* phrase  */
+.phrase {
+    position: relative;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    font-size: 300%;
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: fantasy;
+    width: 50%;
+}
+
+/* phrase  */
+
+/* searchbar */
+.searchBar {
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    top: 80%;
+    z-index: 1;
+}
+.input-group-date{
+    width: 46% !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+
+.input-group {
+    display: inline-block;
+}
+.input-style{
+    border:1px solid #0059ff !important;
+}
+.select-travelers-number{
+    border:1px solid #0059ff !important;
+    width: 10% !important;
+    padding: 0px !important;
+}
+.align{
+    padding: 0px !important;
+    width: 22% !important;
+}
+
+/* searchbar */
+
+/* sign in */
+ .sign-in{
+     width: 50%;
+     height: 100%;
+     margin: auto;
+ }
+ .shape{
+     width: 80%;
+     margin: auto;
+
+ }
+ .control-container{
+     margin-bottom: 10px !important;
+ }
+/* sign in */
+.firstAdd {
+    position: absolute;
+    height: 50%;
+    width: 32.7%;
+    border: 2px solid black;
+    top: 51%;
+    background-image: url('1432168.jpg');
+    margin-left: 2px;
+    z-index: 0;
+}
+
+.secondAdd {
+    position: absolute;
+    height: 50%;
+    width: 32.7%;
+    border: 2px solid black;
+    top: 51%;
+    left: 33.5%;
+    background-image: url('1432168.jpg');
+    z-index: 0;
+}
+
+.thirdAdd {
+    position: absolute;
+    height: 50%;
+    width: 32.7%;
+    border: 2px solid black;
+    top: 51%;
+    left: 67%;
+    margin-right: 2px;
+    background-image: url('1432168.jpg');
+    z-index: 0;
+}

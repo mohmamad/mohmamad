@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="traveling.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header class="backGround ">
+    <!--      phrase   -->
+    <h2 class="phrase ">outdoors is where life happens</h2>
+    <!--       /phrase -->
+
+    <!--      navbar   -->
+    <nav class="navbar navbar-expand-sm navbar-fixed-top myNavbar">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Outdoors</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Attraction</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a data-toggle="modal" data-target="#exampleModalCenter" href="#"><span
+                        class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--      /navbar   -->
+
+    <!--      searchbar   -->
+    <nav class="navbar navbar-expand-sm  searchBar">
+        <div>
+            <form class="navbar-form row clear" action="#">
+                <div class="col-sm-4 align">
+                    <input type="text" class="form-control input-style" placeholder="Search" name="search">
+                </div>
+                <div class="input-group-date col-sm-4">
+                    <span>check in</span>
+                    <input type="date" class="form-control input-style " data-date-format="mm/dd/yyyy"
+                           data-date-autoclose="true"
+                           onkeydown="return false">
+                    <span>check out</span>
+                    <span>
+                        <input type="date" class="form-control input-style " data-date-format="mm/dd/yyyy"
+                               data-date-autoclose="true" onkeydown="return false">
+                    </span>
+                </div>
+                <div class="col-sm-4 pull-right" style="width: 10% !important;">
+                    <button class="btn btn-primary pull-right " type="submit"> search</button>
+                </div>
+                <div class=" col-sm-4  select-travelers-number">
+                    <select class="pull-right">
+                        <option><span class="minus bg-dark"></span>
+                            <input type="number" class="count" name="qty" value="1">
+                            <span class="plus bg-dark"></span>
+                        </option>
+                    </select>
+                </div>
+                <div class="clearfix">
+
+                </div>
+
+            </form>
+        </div>
+    </nav>
+    <!--      searchbar   -->
+    <!--      sign in   -->
+    <div class="modal fade sign-in" id="exampleModalCenter" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " style="display: inline-block" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="shape">
+                        <div class="form-outline mb-4 control-container">
+                            <label class="form-label " for="form2Example1">Email address</label>
+                            <input type="email" id="form2Example1" class="form-control"/>
+                        </div>
+                        <!-- Password input -->
+                        <div class="form-outline mb-4 control-container">
+                            <label class="form-label" for="form2Example2">Password</label>
+                            <input type="password" id="form2Example2" class="form-control"/>
+                        </div>
+
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-4 control-container">
+                            <div class="col d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="form2Example31"
+                                           checked/>
+                                    <label class="form-check-label" for="form2Example31"> Remember me </label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <!-- forgetting password -->
+                                <a href="#!">Forgot password?</a>
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="button" class="btn btn-primary btn-block mb-4 control-container main-color">Sign in</button>
+
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                            <p>Not a member? <a href="#!">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--      /sign in   -->
+</header>
+<dev class="firstAdd">
+</dev>
+<dev class="secondAdd">
+</dev>
+<dev class="thirdAdd">
+</dev>
+</body>
+</html>
+
